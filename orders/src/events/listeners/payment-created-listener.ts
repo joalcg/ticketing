@@ -1,4 +1,4 @@
-import { Listener, PaymentCreatedEvent, Subjects, OrderStatus, OrderStatus } from '@joalcgtickets/common';
+import { Listener, PaymentCreatedEvent, Subjects, OrderStatus } from '@joalcgtickets/common';
 import { queueGroupName } from './queue-group-name';
 import { Message } from 'node-nats-streaming';
 import { Order } from '../../models/order';
